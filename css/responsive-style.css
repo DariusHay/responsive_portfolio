@@ -1,26 +1,9 @@
-.bg {
-    /* height: 700px;
-    width: 100%;
-    margin-bottom: 0px;
-    background-image: url("/assets/bg_pic.jpg");
-    background-size: cover;
-    background-position: center;
-    opacity: 0.7;  */
-}
+
 body {
-    /* background-image: url("/assets/bg_pic.jpg"); */
+    
     background-color: lightblue;
     
    
-}
-#bg {
-    /* height: 2200px;
-    width: 100%;
-    margin-bottom: 0px;
-    background-image: url("/assets/bg_pic.jpg");
-    background-size: cover;
-    background-position: center;
-    opacity: 0.7;  */
 }
 
 .container {
