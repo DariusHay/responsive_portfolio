@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="css/responsive-style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/responsive-style.css" />
 
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4">
-        <a class="navbar-brand" href="index.html" style="color: lightblue; background-color: rgb(180, 180, 180, 0.2);">Darius Hay</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <a class="navbar-brand" href="index.html" style="color: lightblue; background-color: transparent;">Darius
+            Hay</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
@@ -33,9 +42,9 @@
     </nav>
     <div id="bg">
         <main id="container">
-                <h1 class="text-info px-3">Portfolio</h1>
-                <hr class="dashed">
-            <div class="row">
+            <h1 class="text-info px-3">Portfolio</h1>
+            <hr class="dashed">
+            <!-- <div class="row">
                     <img class="pics" src="assets/for-life.jpg">
                     <img class="pics" src="assets/joy.jpg">
             </div>
@@ -45,6 +54,44 @@
             </div>
             <div class="row">
                     <img class="pics" src="assets/walking-down.jpg">
+            </div> -->
+            <div class="row">
+                <div class="card" style="width: 18rem;">
+                    <img id="weThePeople" src="./assets/news.png" class="card-img-top" alt="We the People">
+                    <div class="card-body">
+                        <h5 class="card-title">We The People</h5>
+                        <p class="card-text">This is a site in which you can enter your state, county, city, or address
+                            and view the government officials for that location. On choosing a representative, the
+                            latest news articles will be listed with links that will take you to that article. I was
+                            part of a team of 4 people in the creation of this site.
+                        </p>
+                        <a href="https://raquellee.github.io/we_the_people/" target="_blank" class="btn btn-primary">Go
+                            to site</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/Weather-Dashboard.png" class="card-img-top" alt="Weather-Dashboard">
+                    <div class="card-body">
+                        <h5 class="card-title">Weather-Dashboard</h5>
+                        <p class="card-text">This is an app where you can enter any city into the search bar and view
+                            the current weather and a five day forecast for that city. I solely created this website,
+                            and used the OpenWeatherMap API to retrieve the weather information.</p>
+                        <a href="https://dariushay.github.io/weather-dashboard/" target="_blank"
+                            class="btn btn-primary">Go
+                            to site</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/start-quiz.png" class="card-img-top" alt="Coding Quiz">
+                    <div class="card-body">
+                        <h5 class="card-title">Coding Quiz</h5>
+                        <p class="card-text">This is a coding quiz competition. In this site, you are presented with
+                            five questions about coding and have 75 seconds to answer them. For every wrong answer, 15
+                            seconds are deducted from the timer. I creadted this site solely.</p>
+                        <a href="https://dariushay.github.io/code_quiz/" target="_blank" class="btn btn-primary">Go to
+                            site</a>
+                    </div>
+                </div>
             </div>
         </main>
         <footer>
@@ -53,6 +100,7 @@
         </footer>
     </div>
 
-    
+
 </body>
+
 </html>
