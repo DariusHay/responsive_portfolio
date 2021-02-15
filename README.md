@@ -1,17 +1,11 @@
 # responsive_portfolio
-The purpose of this project is to create a responsive website that has an about me page, a portfolio page, and a contact page. As of now, I have pictures from my wedding 2 years ago in my portfolio page. The purpose of this page is to continue building upon it and adding more and more projects to my portofio as I creat them. I used Bootstrap and it's grid layouts to complete the styling of this website.
+This is my web development portfolio website where I display some projects that I have created and attributed to. I have an about me page with a bit of background and a few of my goals and assets as a web developer. There is a porfolio page where some of my web development work is diplayed. I also have a contact page where I display my email address and have links to my linked in and github. 
+
 # Screenshots 
-![alt text](assets/Aboutme-lagre.png)
-![alt text](assets/Aboutme-med.png)
-![alt text](assets/Aboutme-sm.png)
-![alt text](assets/Portfolio-lg.png)
-![alt text](assets/Portfolio-lg2.png)
-![alt text](assets/Portfolio-med.png)
-![alt text](assets/Portfolio-med2.png)
-![alt text](assets/Portfolio-sm.png)
-![alt text](assets/Portfolio-sm2.png)
-![alt text](assets/Contact-lg.png)
-![alt text](assets/Contact-med.png)
-![alt text](assets/Contact-sm.png)
+![about me](assets/about-me.png)
+![portfolio](assets/portfolio.png)
+![contact](assets/contact.png)
+
+
 # URL
 https://dariushay.github.io/responsive_portfolio/
